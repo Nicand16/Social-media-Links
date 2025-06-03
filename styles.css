@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: inter, sans-serif; /* Fuente Inter para todo el documento */
+}
+.socialmedia {
+    display: block; /* Asegura que cada elemento ocupa una nueva línea */
+    width: 100%; /* Opcional, para ocupar el ancho completo */
+    height: 50px; /* Opcional, para un alto específico */
+    padding: 5px;
+    align-items: center;
+    justify-content: center; /* Centra los elementos dentro del contenedor */
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px; /* Bordes redondeados para un mejor aspecto */
+    align-content: center;
+    color: hsl(0, 0%, 100%);
+
+}
+.socialmedia:hover {
+    background-color: hsl(99, 33%, 18%); /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+#container {
+    width: 35%; /* Ancho máximo del contenedor */
+    height: 50%; /* Altura completa de la ventana */
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    background-color: hsl(0, 0%, 12%); /* Color de fondo oscuro */
+    border-radius: 10px;;
+}
+#container img {
+    width: 100px; /* Ajusta el tamaño de las imágenes */
+    height: 100px; /* Ajusta el tamaño de las imágenes */
+    margin: 10px; /* Espacio entre las imágenes */
+    border-radius: 50%; /* Hace que las imágenes sean circulares */
+    transition: transform 0.3s ease; /* Transición suave para el efecto hover */
+}
+body {
+    margin-top: 100px;
+    margin: 100px auto;
+    background-color: hsl(0, 0%, 8%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 5px; /* Espacio debajo del título */
+    font-family: inter, sans-serif;
+}
+#hometown {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo del subtítulo */
+}
+#social-links {
+    display: flex; /* Utiliza flexbox para alinear los enlaces */
+    flex-wrap: wrap; /* Permite que los enlaces se ajusten a múltiples líneas si es necesario */
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    text-align: center;
+    border-radius: 10%;
+}
+p {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 40px; /* Espacio encima del párrafo */
+}
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    transition: color 0.3s ease; /* Transición suave para el color del enlace */
+    font-weight: 600; /* Negrita para los enlaces */
+}
+
