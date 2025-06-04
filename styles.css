@@ -21,7 +21,7 @@
     transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
 }
 #container {
-    width: 35%; /* Ancho máximo del contenedor */
+    width: 50%; /* Ancho máximo del contenedor */
     height: 50%; /* Altura completa de la ventana */
     margin: auto;
     padding: 20px;
